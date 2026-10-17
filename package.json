@@ -1,12 +1,12 @@
 {
-  "name": "@openvitals/posts",
+  "name": "@openvitals/blog",
   "version": "1.0.0",
   "private": true,
-  "description": "OpenVitals posts.",
+  "description": "OpenVitals blog.",
   "homepage": "https://blog.openvitals.health/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenVitals-MTU/posts.git"
+    "url": "https://github.com/OpenVitals-MTU/blog.git"
   },
   "scripts": {
     "dev": "next dev --webpack",

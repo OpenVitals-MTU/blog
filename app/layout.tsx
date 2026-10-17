@@ -51,7 +51,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
 
           <Footer>
             <span className="openvitals-footer">
-              <span>OpenVitals posts</span>
+              <span>OpenVitals blog</span>
               <a href="/feed.xml">RSS</a>
             </span>
           </Footer>

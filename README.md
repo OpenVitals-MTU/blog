@@ -1,11 +1,11 @@
-# OpenVitals Posts
+# OpenVitals Blog
 
 Nextra blog for OpenVitals: news, release write-ups and longer articles.
 
 Repository:
 
 ```text
-https://github.com/OpenVitals-MTU/posts
+https://github.com/OpenVitals-MTU/blog
 ```
 
 Website URL:
