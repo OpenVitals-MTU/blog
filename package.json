@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "OpenVitals posts.",
-  "homepage": "https://posts.openvitals.health/",
+  "homepage": "https://blog.openvitals.health/",
   "repository": {
     "type": "git",
     "url": "https://github.com/OpenVitals-MTU/posts.git"

@@ -1,7 +1,7 @@
 export const site = {
   title: 'OpenVitals Posts',
   description: 'News and write-ups from the OpenVitals project.',
-  url: 'https://posts.openvitals.health',
+  url: 'https://blog.openvitals.health',
   repository: 'https://github.com/OpenVitals-MTU/posts'
 }
 

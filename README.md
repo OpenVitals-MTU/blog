@@ -11,7 +11,7 @@ https://github.com/OpenVitals-MTU/posts
 Website URL:
 
 ```text
-https://posts.openvitals.health/
+https://blog.openvitals.health/
 ```
 
 ## Writing a Post
@@ -82,4 +82,4 @@ python3 -m http.server --directory out 3000
 
 The GitHub Actions workflow (`.github/workflows/test.yml`) builds the site on every push and pull request and, on a push to `main`, deploys `out/` to GitHub Pages.
 
-One-time setup: in the repository's Settings → Pages, set the source to "GitHub Actions" and the custom domain to `posts.openvitals.health`, and turn on "Enforce HTTPS" once the certificate is issued. In DNS, `posts` is a `CNAME` record pointing to `openvitals-mtu.github.io`.
+One-time setup: in the repository's Settings → Pages, set the source to "GitHub Actions" and the custom domain to `blog.openvitals.health`, and turn on "Enforce HTTPS" once the certificate is issued. In DNS, `blog` is a `CNAME` record pointing to `openvitals-mtu.github.io`.
