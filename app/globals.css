@@ -1,0 +1,56 @@
+/*
+  The navbar keeps its links on the right; the brand goes first and takes the slack.
+  The theme renders the _meta links (Posts) before the ones in app/layout.tsx, so
+  Home is moved ahead of them here.
+*/
+.openvitals-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-shrink: 0;
+  order: -2;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.openvitals-home {
+  order: -1;
+}
+
+/* The theme's search box is a fixed 16rem; here it gives up width before the links do. */
+.openvitals-search {
+  flex: 0 1 12rem;
+  min-width: 0;
+}
+
+.openvitals-search input {
+  width: 100%;
+}
+
+.openvitals-brand img {
+  display: block;
+  border-radius: 6px;
+}
+
+/* On a phone the links and the search box take the row; the logo alone stays. */
+@media (max-width: 520px) {
+  .openvitals-brand b {
+    display: none;
+  }
+}
+
+.openvitals-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.openvitals-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+article img {
+  border-radius: 10px;
+}

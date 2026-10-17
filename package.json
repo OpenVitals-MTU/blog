@@ -1,0 +1,31 @@
+{
+  "name": "@openvitals/posts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpenVitals posts.",
+  "homepage": "https://posts.openvitals.health/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenVitals-MTU/posts.git"
+  },
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "postbuild": "pagefind --site .next/server/app --output-path out/_pagefind",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "nextra": "4.6.1",
+    "nextra-theme-blog": "4.6.1",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "pagefind": "1.5.2",
+    "typescript": "5.8.3"
+  }
+}
