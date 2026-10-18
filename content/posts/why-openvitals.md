@@ -27,5 +27,3 @@ With this as the endgame, we can interconnect the whole FOSS ecosystem (also the
 What I valued the most in Estonia was having all my health data at hand to make the best decisions I could, and that is what I want OpenVitals to bring to anyone with a phone, without having to give that data to Google or any other company.
 
 There is still a long way to go, and I would love you to be part of it. You can get OpenVitals on [F-Droid](https://f-droid.org/en/packages/tech.mmarca.openvitals/) or [Google Play](https://play.google.com/store/apps/details?id=tech.mmarca.openvitals). If something breaks, [open an issue](https://github.com/OpenVitals-MTU/android-app/issues). The code is on [GitHub](https://github.com/OpenVitals-MTU/android-app) and every contribution is welcome, and if you want to support the project you can do it on [Liberapay](https://liberapay.com/manuel.mmarca.tech/donate).
-
-Fifteen years ago Ubuntu showed me what a community can build, and I hope OpenVitals can do the same for wellness and health.
